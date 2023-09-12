@@ -7,6 +7,7 @@ namespace Laba_0
         static void Main(string[] args)
         {
             TestFunction();
+
         }
         /// <summary>
         /// Тестирование на роботоспособность и правильность выполнения функции CubingDiferenceOfTwoNumbers
@@ -15,8 +16,7 @@ namespace Laba_0
         {
             int firstNumber = GenerateRandomValue();
             int secondNumber = GenerateRandomValue();
-            double result = CubingDiferenceOfTwoNumbers(firstNumber, secondNumber);
-            Console.WriteLine($"({firstNumber} - {secondNumber})^3 = {result} ");
+            Console.WriteLine($"({firstNumber} - {secondNumber})^3 = {CubingDiferenceOfTwoNumbers(firstNumber, secondNumber)} ");
         }
         /// <summary>
         /// Генерация рандомного числа
